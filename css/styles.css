@@ -132,9 +132,17 @@ color: #5c433f; */
   font-family: 'open Sans', sans-serif;
   font-weight: 400;
 }
+<<<<<<< HEAD
 a:hover {
   text-decoration: none;
 }
+=======
+
+a:hover {
+  text-decoration: none;
+}
+
+>>>>>>> 86ae1a4e98f15dffb8d88559aa1e19ec5b40d425
 nav {
   top: 20px;
 } */
@@ -148,14 +156,26 @@ nav {
 /* .featured {
   margin-bottom: 60px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ae1a4e98f15dffb8d88559aa1e19ec5b40d425
 .product {
   background-color: #eeddcd;
   border-radius: 5%;
   border: 5px solid rgb (232, 232, 232)
 }
+<<<<<<< HEAD
 .img_box {
   margin: 10px 0px;
 }
+=======
+
+.img_box {
+  margin: 10px 0px;
+}
+
+>>>>>>> 86ae1a4e98f15dffb8d88559aa1e19ec5b40d425
 .product button {
   margin-bottom: 10px;
   background-color: rgb (252, 252, 252);
