@@ -182,3 +182,30 @@ nav {
   background-color: rgb (252, 252, 252);
   border: 1px solid #5c43ff;
 } */
+
+/* Start of Contact Us Page */
+
+.male_doctor_img {
+  margin-left: 90px;
+}
+
+.map {
+  margin-left: 85px;
+  margin-bottom: 80px;
+}
+
+.female_doctor_img {
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+.cat_img {
+  margin-left: 85px;
+}
+
+.animal {
+  margin-top: 90px;
+}
+
+
+/* End of Contact Us Page */
