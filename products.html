@@ -33,14 +33,52 @@
   </div>
   <!-- End of Navbar -->
 
-  <div class="container-fluid text-center" id="top-page">
+
+
+  <!-- beginning of juans html withoout flip -->
+  <!-- <div class="container-fluid text-center" id="top-page">
     <div class="row">
       <div class="col-md-6 col-md-offset-1 vet">
         <h1>Recommended Veterinary Supplies</h1>
       </div>
       <div class="col-md-4"><img src="img/products_dog_img_12.jpg" alt="Loveable brown dogs"></div>
     </div>
+  </div> -->
+  <!-- end of html without flip -->
+
+
+
+  <div class="container-fluid text-center" id="top-page">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-1 vet">
+        <h1>Recommended Veterinary Supplies</h1>
+      </div>
+
+      <div class="col-md-4 flip-box">
+          <div class="flip-box-inner">
+              <div class="flip-box-front">
+        <img src="img/products_dog_img_12.jpg" alt="Loveable brown dogs"></div>
+        <div class="flip-box-back">
+            <h2>Dogs!</h2>
+            <p>Mans best friend.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- closing div for row below -->
+    </div>
+    <!-- closing div for container fluid text center id top page -->
   </div>
+
+
+
+
+
+
+
 
   <hr>
   <div class="row">
@@ -78,74 +116,57 @@
           class="vetsulin"><button class="btn5 btn-lg"><a
             href="https://www.groupon.com/deals/gg-furhaven-pet-water-bottle">Purchase Now</a></button></div>
 
+      <div class="col-md-3 col-md-offset-1 bed"><img src="img/dogbed2.jpg" alt="Dog bed" class="nutra"><button
+          class="btn6 btn-lg"><a href="https://www.rakuten.com/shop/furhavenpetproducts/product/21243435P/">Purchase
+            Now</a></button></div>
 
+    </div>
+  </div>
 
-      <div class="col-md-3 col-md-offset-1 flip-box bed">
-        <div class="flip-box-inner">
-          <div class="flip-box-front">
-
-            <img src="img/dogbed2.jpg" alt="Dog bed" class="nutra"><button class="btn6 btn-lg"><a
-                href="https://www.rakuten.com/shop/furhavenpetproducts/product/21243435P/">Purchase
-                Now</a></button>
-                </div>
-                <div class="flip-box-back">
-                  <h2>Doggy is Sad</h2>
-                  <p>Poor Doggy, he needs a softer bed.</p>
-                </div>
-              
-              
-             </div>
-          </div>
-
-        
-        
-        </div>
+  <!-- Beginning of Footer -->
+  <footer class="container-fluid">
+    <div class="row centered">
+      <div class="col-xs-6 col-sm-1 col-sm-offset-1">
+        <img src="img/petstore_logo.png" alt="Pet Store Logo" class="logo">
+      </div>
+      <div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
+        <address>
+          <a href="#">
+            Pet Store<br>
+            Fresno, Ca<br>
+          </a>
+          <a href="#">info@petstore.com</a>
+        </address>
       </div>
 
-      <!-- Beginning of Footer -->
-      <footer class="container-fluid">
-        <div class="row centered">
-          <div class="col-xs-6 col-sm-1 col-sm-offset-1">
-            <img src="img/petstore_logo.png" alt="Pet Store Logo" class="logo">
-          </div>
-          <div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
-            <address>
-              <a href="#">
-                Pet Store<br>
-                Fresno, Ca<br>
-              </a>
-              <a href="#">info@petstore.com</a>
-            </address>
-          </div>
-
-          <div class="col-sm-2 social">
-            <a href="#">
-              <i class="fab fa-facebook"></i>
-              <span class="hidden-xs">Facebook</span>
-            </a>
-            <br class="hidden-xs">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-              <span class="hidden-xs">Twitter</span>
-              <br class="hidden-xs">
-            </a>
-            <a href="#"><i class="fab fa-linkedin"></i>
-              <span class="hidden-xs">Linkedin</span>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 fine_print text-center">
-            <p>&copy; Pet Store, Inc. All Rights Reserved</p>
-          </div>
-        </div>
-      </footer>
+      <div class="col-sm-2 social">
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+          <span class="hidden-xs">Facebook</span>
+        </a>
+        <br class="hidden-xs">
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+          <span class="hidden-xs">Twitter</span>
+          <br class="hidden-xs">
+        </a>
+        <a href="#"><i class="fab fa-linkedin"></i>
+          <span class="hidden-xs">Linkedin</span>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 fine_print text-center">
+        <p>&copy; Pet Store, Inc. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 
 
-      <!-- End Footer -->
-      <!-- scripts -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+  <!-- End Footer -->
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
