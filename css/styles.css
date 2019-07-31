@@ -334,8 +334,8 @@ hr {
 }
 
 .flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: black;
+  color: #5c4335;
   transform: rotateY(180deg);
 }
 
